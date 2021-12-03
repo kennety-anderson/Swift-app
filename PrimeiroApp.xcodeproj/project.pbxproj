@@ -11,9 +11,6 @@
 		D3705B8D275962DA00C26012 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3705B8C275962DA00C26012 /* ContentView.swift */; };
 		D3705B8F275962DC00C26012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3705B8E275962DC00C26012 /* Assets.xcassets */; };
 		D3705B92275962DC00C26012 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3705B91275962DC00C26012 /* Preview Assets.xcassets */; };
-		D3705B9C275962DC00C26012 /* PrimeiroAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3705B9B275962DC00C26012 /* PrimeiroAppTests.swift */; };
-		D3705BA6275962DC00C26012 /* PrimeiroAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3705BA5275962DC00C26012 /* PrimeiroAppUITests.swift */; };
-		D3705BA8275962DC00C26012 /* PrimeiroAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3705BA7275962DC00C26012 /* PrimeiroAppUITestsLaunchTests.swift */; };
 		D3705BBB2759935000C26012 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3705BBA2759935000C26012 /* CircleImage.swift */; };
 		D3705BBD275994F500C26012 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3705BBC275994F500C26012 /* MapView.swift */; };
 /* End PBXBuildFile section */
@@ -42,10 +39,7 @@
 		D3705B8E275962DC00C26012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3705B91275962DC00C26012 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D3705B97275962DC00C26012 /* PrimeiroAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeiroAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3705B9B275962DC00C26012 /* PrimeiroAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeiroAppTests.swift; sourceTree = "<group>"; };
 		D3705BA1275962DC00C26012 /* PrimeiroAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeiroAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3705BA5275962DC00C26012 /* PrimeiroAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeiroAppUITests.swift; sourceTree = "<group>"; };
-		D3705BA7275962DC00C26012 /* PrimeiroAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeiroAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D3705BBA2759935000C26012 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		D3705BBC275994F500C26012 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,9 +72,12 @@
 		D3705B7E275962DA00C26012 = {
 			isa = PBXGroup;
 			children = (
-				D3705B89275962DA00C26012 /* PrimeiroApp */,
-				D3705B9A275962DC00C26012 /* PrimeiroAppTests */,
-				D3705BA4275962DC00C26012 /* PrimeiroAppUITests */,
+				D3705BBA2759935000C26012 /* CircleImage.swift */,
+				D3705B8A275962DA00C26012 /* PrimeiroAppApp.swift */,
+				D3705B8E275962DC00C26012 /* Assets.xcassets */,
+				D3705B8C275962DA00C26012 /* ContentView.swift */,
+				D3705BBC275994F500C26012 /* MapView.swift */,
+				D3705B90275962DC00C26012 /* Preview Content */,
 				D3705B88275962DA00C26012 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,42 +92,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D3705B89275962DA00C26012 /* PrimeiroApp */ = {
-			isa = PBXGroup;
-			children = (
-				D3705B8A275962DA00C26012 /* PrimeiroAppApp.swift */,
-				D3705B8C275962DA00C26012 /* ContentView.swift */,
-				D3705B8E275962DC00C26012 /* Assets.xcassets */,
-				D3705BBA2759935000C26012 /* CircleImage.swift */,
-				D3705B90275962DC00C26012 /* Preview Content */,
-				D3705BBC275994F500C26012 /* MapView.swift */,
-			);
-			path = PrimeiroApp;
-			sourceTree = "<group>";
-		};
 		D3705B90275962DC00C26012 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
 				D3705B91275962DC00C26012 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		D3705B9A275962DC00C26012 /* PrimeiroAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				D3705B9B275962DC00C26012 /* PrimeiroAppTests.swift */,
-			);
-			path = PrimeiroAppTests;
-			sourceTree = "<group>";
-		};
-		D3705BA4275962DC00C26012 /* PrimeiroAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D3705BA5275962DC00C26012 /* PrimeiroAppUITests.swift */,
-				D3705BA7275962DC00C26012 /* PrimeiroAppUITestsLaunchTests.swift */,
-			);
-			path = PrimeiroAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3705B9C275962DC00C26012 /* PrimeiroAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3705BA6275962DC00C26012 /* PrimeiroAppUITests.swift in Sources */,
-				D3705BA8275962DC00C26012 /* PrimeiroAppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +390,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PrimeiroApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = RBH8S39R7A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -455,7 +419,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PrimeiroApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = RBH8S39R7A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
