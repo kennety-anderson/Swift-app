@@ -15,13 +15,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            ContentView()
-                .padding(0.0)
-                .previewDevice("iPhone 11")
-            .previewInterfaceOrientation(.portraitUpsideDown)
-           
-        }
-            
+        ContentView()
+            .environmentObject(ModelData())
     }
 }
